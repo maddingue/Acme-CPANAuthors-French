@@ -19,15 +19,19 @@ my @ids      = $authors->id;
 cmp_ok( ~~@ids, ">", 0, " .. \$authors->id gives a non-empty list" );
 is( ~~@ids, $number, " .. \$authors->id eqals \$authors->count" );
 
-my @distros  = $authors->distributions("SAPER");
-cmp_ok( ~~@distros, ">", 0, " .. \$authors->distributions gives a non-empty list" );
+SKIP: {
+    skip "CPAN configuration not available", 4
+        unless eval "Acme::CPANAuthors::Utils::_cpan_authors_file() ; 1";
 
-my $url      = $authors->avatar_url("VPIT");
-cmp_ok( length($url), ">", 0, " .. \$authors->avatar_url('VPIT') gives a non-empty string" );
+    my @distros  = $authors->distributions("SAPER");
+    cmp_ok( ~~@distros, ">", 0, " .. \$authors->distributions gives a non-empty list" );
 
-my $kwalitee = $authors->kwalitee("BOOK");
-isa_ok( $kwalitee, "HASH", " .. \$authors->kwalitee('BOOK')" );
+    my $url      = $authors->avatar_url("VPIT");
+    cmp_ok( length($url), ">", 0, " .. \$authors->avatar_url('VPIT') gives a non-empty string" );
 
-my $name     = $authors->name("RGARCIA");
-cmp_ok( length($name), ">", 0, " .. \$authors->name('RGARCIA') gives a non-empty string" );
+    my $kwalitee = $authors->kwalitee("BOOK");
+    isa_ok( $kwalitee, "HASH", " .. \$authors->kwalitee('BOOK')" );
 
+    my $name     = $authors->name("RGARCIA");
+    cmp_ok( length($name), ">", 0, " .. \$authors->name('RGARCIA') gives a non-empty string" );
+}
