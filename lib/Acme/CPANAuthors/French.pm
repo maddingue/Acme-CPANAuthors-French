@@ -4,12 +4,13 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.05";
+    $VERSION = "0.06";
 }
 
 use Acme::CPANAuthors::Register (
     AASSAD      => "Arnaud Assad (Arhuman)",
     BOOK        => "Philippe Bruhat (BooK)",
+    BRIAC       => "Briac Pilpré",
     CBOUVI      => "Cédric Bouvier",
     CHOLET      => "Éric Cholet",
     CMERTZ      => "Christophe Mertz",
@@ -21,11 +22,13 @@ use Acme::CPANAuthors::Register (
     DOMQ        => "Dominique Quatravaux",
     DOLMEN      => "Olivier Mengué (dolmen)",
     DUPUISARN   => "Arnaud Dupuis",
+    ECOCODE     => "Erik Colson",
     EDIPRETO    => "Emmanuel Di Pretoro",
     ERIAM       => "Eriam Schaffter",
     FDESAR      => "François Désarmenien",
     GERBERRI    => "Richard Gerber",            # has nothing on the CPAN
     GOMOR       => "Patrice Auffret",
+    GROMMIER    => "Sébastien Grommier",
     GROUSSE     => "Guillaume Rousse",
     JFENAL      => "Jérôme Fenal",
     JFORGET     => "Jean Forget",
@@ -41,6 +44,7 @@ use Acme::CPANAuthors::Register (
     NCHUCHE     => "Nicolas Chuche",
     PDENIS      => "Pierre Denis",
     PERRAD      => "Francois Perrad",
+    PIXEL       => "Pascal Rigaux",
     PLEGALL     => "Pierrick Le Gall",
     PMEVZEK     => "Patrick Mevzek",
     POLGAB      => "Paul Gaborit",
@@ -48,12 +52,14 @@ use Acme::CPANAuthors::Register (
     RGARCIA     => "Rafaël Garcia-Suarez",
     SAPER       => "Sébastien Aperghis-Tramoni (Maddingue)",
     SBZ         => "Sofian Brabez",             # has nothing on the CPAN
+    SDP         => "Sébastien Darribere-Pleyt",
     SNIPER      => "David Rigaudiere (Sniper)", # has nothing on the CPAN
     STEF        => "Stéphane Payrard",          # has nothing on the CPAN
     SUKRIA      => "Alexis Sukrieh",
     THHAMON     => "Thierry Hamon",
     VPIT        => "Vincent Pit",
     XAV         => "Xavier Caron",              # has nothing on the CPAN
+    YBLUSSEAU   => "Yves Blusseau",
 );
 
 
@@ -76,7 +82,7 @@ Acme::CPANAuthors::French - Nous sommes des auteurs CPAN francophones
 
 =head1 VERSION
 
-Version 0.05
+Version 0.06
 
 
 =head1 SYNOPSIS
