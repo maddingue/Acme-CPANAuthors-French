@@ -1,5 +1,9 @@
 Revision history for Acme-CPANAuthors-French
 
+0.04    2008.09.21  (SAPER)
+        [AUTHORS] Added MJONDET.
+        [EG] Added two examples scripts.
+
 0.03    2008.09.18  (SAPER)
         [AUTHORS] Added CBOUVI, GERBERRI.
         [TESTS] Fixed t/10-synopsis.t

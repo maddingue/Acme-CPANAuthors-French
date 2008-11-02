@@ -1,11 +1,13 @@
 MANIFEST
+META.yml
 Build.PL
 Makefile.PL
 README
 Changes
 lib/Acme/CPANAuthors/French.pm
+eg/author_info
+eg/count
 t/00-load.t
 t/10-synopsis.t
 t/90-pod.t
 t/91-pod-coverage.t
-META.yml

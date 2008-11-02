@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.03";
+    $VERSION = "0.04";
 }
 
 use Acme::CPANAuthors::Register (
@@ -37,6 +37,7 @@ use Acme::CPANAuthors::Register (
     MAT         => "Mathieu Arnold",
     MIROD       => "Michel Rodriguez",
     MISC        => "Michael Scherer",
+    MJONDET     => "Mathieu Jondet",
     NANARDON    => "Olivier Thauvin",
     NCHUCHE     => "Nicolas Chuche",
     PDENIS      => "Pierre Denis",
@@ -73,9 +74,10 @@ Acme::CPANAuthors::French - We are French CPAN authors
 
 Acme::CPANAuthors::French - Nous sommes des auteurs CPAN francophones
 
+
 =head1 VERSION
 
-Version 0.03
+Version 0.04
 
 
 =head1 SYNOPSIS

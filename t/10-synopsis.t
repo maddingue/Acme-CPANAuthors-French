@@ -6,7 +6,7 @@ use Test::More;
 
 plan skip_all => "can't load Acme::CPANAuthors"
     unless eval "use Acme::CPANAuthors; 1";
-plan tests => 8;
+plan tests => 9;
 
 my $authors  = eval { Acme::CPANAuthors->new("French") };
 is( $@, "", "creating a new Acme::CPANAuthors object with French authors" );
@@ -17,6 +17,7 @@ cmp_ok( $number, ">", 0, " .. \$authors->count is a non-null number" );
 
 my @ids      = $authors->id;
 cmp_ok( ~~@ids, ">", 0, " .. \$authors->id gives a non-empty list" );
+is( ~~@ids, $number, " .. \$authors->id eqals \$authors->count" );
 
 my @distros  = $authors->distributions("SAPER");
 cmp_ok( ~~@distros, ">", 0, " .. \$authors->distributions gives a non-empty list" );
