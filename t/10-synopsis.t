@@ -2,9 +2,10 @@
 use strict;
 use warnings;
 use Test::More;
-use Acme::CPANAUthors;
 
 
+plan skip_all => "can't load Acme::CPANAuthors"
+    unless eval "use Acme::CPANAUthors; 1";
 plan tests => 8;
 
 my $authors  = eval { Acme::CPANAuthors->new("French") };

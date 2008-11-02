@@ -4,20 +4,25 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.01";
+    $VERSION = "0.02";
 }
 
 use Acme::CPANAuthors::Register (
     AASSAD      => "Arnaud Assad (Arhuman)",
     BOOK        => "Philippe Bruhat (BooK)",
+    CHOLET      => "Éric Cholet",
+    CMERTZ      => "Christophe Mertz",
     DAMI        => "Laurent Dami",
     DAMS        => "Damien Krotkine",
+    DBARTH      => "David Barth",
     DLAND       => "David Landgren",
     DMOR        => "David Morel",
+    DOMQ        => "Dominique Quatravaux",
     DOLMEN      => "Olivier Mengué (dolmen)",
     DUPUISARN   => "Arnaud Dupuis",
     EDIPRETO    => "Emmanuel Di Pretoro",
     ERIAM       => "Eriam Schaffter",
+    FDESAR      => "François Désarmenien",
     GOMOR       => "Patrice Auffret",
     GROUSSE     => "Guillaume Rousse",
     INGRIF      => "Ingrid Falk",
@@ -27,15 +32,26 @@ use Acme::CPANAuthors::Register (
     JMGDOC      => "Jean-Marie Gouarné",
     JQUELIN     => "Jérôme Quelin",
     LGAUTROT    => "Laurent Gautrot",
+    MAT         => "Mathieu Arnold",
     MIROD       => "Michel Rodriguez",
     MISC        => "Michael Scherer",
     NANARDON    => "Olivier Thauvin",
+    NCHUCHE     => "Nicolas Chuche",
+    PDENIS      => "Pierre Denis",
+    PERRAD      => "Francois Perrad",
+    PLEGALL     => "Pierrick Le Gall",
+    PMEVZEK     => "Patrick Mevzek",
+    POLGAB      => "Paul Gaborit",
     RBERJON     => "Robin Berjon",
     RGARCIA     => "Rafaël Garcia-Suarez",
     SAPER       => "Sébastien Aperghis-Tramoni (Maddingue)",
     SBZ         => "Sofian Brabez",             # has nothing on the CPAN
+    SNIPER      => "David Rigaudiere (Sniper)", # has nothing on the CPAN
     STEF        => "Stéphane Payrard",          # has nothing on the CPAN
+    SUKRIA      => "Alexis Sukrieh",
+    THHAMON     => "Thierry Hamon",
     VPIT        => "Vincent Pit",
+    XAV         => "Xavier Caron",              # has nothing on the CPAN
 );
 
 
@@ -57,7 +73,7 @@ Acme::CPANAuthors::French - Nous sommes des auteurs CPAN français
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 
 =head1 SYNOPSIS
@@ -95,9 +111,9 @@ L<Acme::CPANAuthors> - Main class to manipulate this one
 
 L<Acme::CPANAuthors::Austrian> - Austrian CPAN authors
 
-L<Acme::CPANAuthors:: Brazilian > - Brazilian CPAN authors
+L<Acme::CPANAuthors::Brazilian> - Brazilian CPAN authors
 
-L<Acme::CPANAuthors:: Chinese > - Chinese CPAN authors
+L<Acme::CPANAuthors::Chinese> - Chinese CPAN authors
 
 L<Acme::CPANAuthors::Japanese> - Japanese CPAN authors
 

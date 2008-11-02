@@ -1,5 +1,13 @@
 Revision history for Acme-CPANAuthors-French
 
+0.02    2008.09.14  (SAPER)
+        [AUTHORS] Added CHOLET, CMERTZ, DBARTH, DOMQ, FDESAR, MAT, 
+        NCHUCHE, PDENIS, PERRAD, PLEGALL, PMEVZEK, POLGAB, SNIPER, 
+        SUKRIA, THHAMON, XAV
+        [DOC] Fixed some links.
+        [TESTS] Modified t/10-synopsis.t to avoid some erroneous
+        testing reports from some smoke boxes.
+
 0.01    2008.09.13  (SAPER)
         First version, released on an unsuspecting world.
 
