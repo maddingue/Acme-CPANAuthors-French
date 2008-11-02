@@ -4,7 +4,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.04";
+    $VERSION = "0.05";
 }
 
 use Acme::CPANAuthors::Register (
@@ -27,7 +27,6 @@ use Acme::CPANAuthors::Register (
     GERBERRI    => "Richard Gerber",            # has nothing on the CPAN
     GOMOR       => "Patrice Auffret",
     GROUSSE     => "Guillaume Rousse",
-    INGRIF      => "Ingrid Falk",
     JFENAL      => "Jérôme Fenal",
     JFORGET     => "Jean Forget",
     JLMOREL     => "Jean-Louis Morel",
@@ -77,7 +76,7 @@ Acme::CPANAuthors::French - Nous sommes des auteurs CPAN francophones
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 
 =head1 SYNOPSIS
