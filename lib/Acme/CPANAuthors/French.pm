@@ -153,7 +153,7 @@ You can also look for information at:
 
 =item * RT: CPAN's request tracker
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-CPANAuthors-French>
+L<http://rt.cpan.org/Dist/Display.html?Queue=Acme-CPANAuthors-French>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 
