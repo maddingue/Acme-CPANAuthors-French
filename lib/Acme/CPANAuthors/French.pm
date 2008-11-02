@@ -136,7 +136,7 @@ Sébastien Aperghis-Tramoni C<< <sebastien at aperghis.net> >>
 
 Please report any bugs or feature requests to 
 C<bug-acme-cpanauthors-french at rt.cpan.org>, or through the web interface at
-L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Acme-CPANAuthors-French>.
+L<http://rt.cpan.org/Dist/Display.html?Queue=Acme-CPANAuthors-French>.
 I will be notified, and then you'll automatically be notified of 
 progress on your bug as I make changes.
 
