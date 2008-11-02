@@ -1,5 +1,9 @@
 Revision history for Acme-CPANAuthors-French
 
+0.03    2008.09.18  (SAPER)
+        [AUTHORS] Added CBOUVI, GERBERRI.
+        [TESTS] Fixed t/10-synopsis.t
+
 0.02    2008.09.14  (SAPER)
         [AUTHORS] Added CHOLET, CMERTZ, DBARTH, DOMQ, FDESAR, MAT, 
         NCHUCHE, PDENIS, PERRAD, PLEGALL, PMEVZEK, POLGAB, SNIPER, 

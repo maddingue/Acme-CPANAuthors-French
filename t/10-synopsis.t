@@ -5,7 +5,7 @@ use Test::More;
 
 
 plan skip_all => "can't load Acme::CPANAuthors"
-    unless eval "use Acme::CPANAUthors; 1";
+    unless eval "use Acme::CPANAuthors; 1";
 plan tests => 8;
 
 my $authors  = eval { Acme::CPANAuthors->new("French") };

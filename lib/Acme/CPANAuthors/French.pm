@@ -4,12 +4,13 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.02";
+    $VERSION = "0.03";
 }
 
 use Acme::CPANAuthors::Register (
     AASSAD      => "Arnaud Assad (Arhuman)",
     BOOK        => "Philippe Bruhat (BooK)",
+    CBOUVI      => "Cédric Bouvier",
     CHOLET      => "Éric Cholet",
     CMERTZ      => "Christophe Mertz",
     DAMI        => "Laurent Dami",
@@ -23,6 +24,7 @@ use Acme::CPANAuthors::Register (
     EDIPRETO    => "Emmanuel Di Pretoro",
     ERIAM       => "Eriam Schaffter",
     FDESAR      => "François Désarmenien",
+    GERBERRI    => "Richard Gerber",            # has nothing on the CPAN
     GOMOR       => "Patrice Auffret",
     GROUSSE     => "Guillaume Rousse",
     INGRIF      => "Ingrid Falk",
@@ -69,11 +71,11 @@ __END__
 
 Acme::CPANAuthors::French - We are French CPAN authors
 
-Acme::CPANAuthors::French - Nous sommes des auteurs CPAN français
+Acme::CPANAuthors::French - Nous sommes des auteurs CPAN francophones
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 
 =head1 SYNOPSIS
