@@ -8,6 +8,7 @@ my $builder = Module::Build->new(
     dist_author         => 'Sébastien Aperghis-Tramoni <sebastien@aperghis.net>',
     dist_version_from   => 'lib/Acme/CPANAuthors/French.pm',
     requires => {
+        'perl'              => '5.008',
         'Acme::CPANAuthors' => '0.04',
     },
     build_requires => {
