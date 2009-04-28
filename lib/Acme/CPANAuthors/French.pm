@@ -1,4 +1,5 @@
 package Acme::CPANAuthors::French;
+use utf8;
 use strict;
 use warnings;
 
