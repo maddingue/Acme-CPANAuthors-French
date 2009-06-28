@@ -19,6 +19,7 @@ use Acme::CPANAuthors::Register (
     CFILIPPE    => "Christophe Filippelli",     # has nothing on the CPAN
     CGUINE      => "Christian Guine",
     CHOLET      => "Éric Cholet",
+    CMAUSSAN    => "Camille Maussang",          # has nothing on the CPAN
     CMERTZ      => "Christophe Mertz",
     CYK         => "Philippe Chane You Kaye",
     CYPLP       => "Cyprien Le Pannérer",
@@ -124,6 +125,7 @@ use Acme::CPANAuthors::Register (
     STOUGARD    => "Stéphane Tougard",
     SUKRIA      => "Alexis Sukrieh",
     TCHINCHOW   => "Lionel Victor",
+    TDRUGEON    => "Thomas Drugeon",
     THHAMON     => "Thierry Hamon",
     VPIT        => "Vincent Pit",
     XAV         => "Xavier Caron",              # has nothing on the CPAN
