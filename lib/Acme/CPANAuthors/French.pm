@@ -148,7 +148,7 @@ __END__
 
 =head1 NAME
 
-Acme::CPANAuthors::French - We are French CPAN authors
+Acme::CPANAuthors::French - We are French-speaking CPAN authors
 
 Acme::CPANAuthors::French - Nous sommes des auteurs CPAN francophones
 
