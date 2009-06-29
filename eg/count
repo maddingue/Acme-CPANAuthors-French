@@ -6,4 +6,4 @@ use Acme::CPANAuthors;
 my $authors  = Acme::CPANAuthors->new("French");
 my $number   = $authors->count;
 
-print "$number declared French CPAN authors\n";
+print "$number declared French-speaking CPAN authors\n";
