@@ -1,6 +1,6 @@
 Revision history for Acme-CPANAuthors-French
 
-0.08    2009.xx.xx  (SAPER)
+0.08    2009.06.29  (SAPER)
         [BUGFIX] CPAN-RT #45077: Specify utf8 encoding in the module and add
         a test (t/80-cpan-rt-45077.t) to check this (Olivier Mengue).
         [AUTHORS] Added ALAMAZ, BOUBAKER, CASTOR, CFILIPPE, CGUINE, CMAUSSAN, CYK,
