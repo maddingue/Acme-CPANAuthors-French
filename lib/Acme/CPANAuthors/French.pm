@@ -11,6 +11,7 @@ use warnings;
 use Acme::CPANAuthors::Register (
     AASSAD      => "Arnaud Assad (Arhuman)",
     ALAMAZ      => "Joseph Benzakoun",
+    BCO         => "Bruno Cornec",
     BOOK        => "Philippe Bruhat (BooK)",
     BOUBAKER    => "Heddy Boubaker",
     BRIAC       => "Briac Pilpré",
