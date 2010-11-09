@@ -29,8 +29,11 @@ SKIP: {
     my $url      = $authors->avatar_url("VPIT");
     cmp_ok( length($url), ">", 0, " .. \$authors->avatar_url('VPIT') gives a non-empty string" );
 
-    my $kwalitee = $authors->kwalitee("BOOK");
-    isa_ok( $kwalitee, "HASH", " .. \$authors->kwalitee('BOOK')" );
+    my $kwalitee = eval { $authors->kwalitee("BOOK") };
+    SKIP: {
+        skip $@, 1 if $@ =~ /Can't connect to cpants.perl.org/;
+        isa_ok( $kwalitee, "HASH", " .. \$authors->kwalitee('BOOK')" );
+    }
 
     my $name     = $authors->name("RGARCIA");
     cmp_ok( length($name), ">", 0, " .. \$authors->name('RGARCIA') gives a non-empty string" );
