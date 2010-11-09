@@ -5,7 +5,7 @@ use warnings;
 
 {
     no strict "vars";
-    $VERSION = "0.08";
+    $VERSION = "0.09";
 }
 
 use Acme::CPANAuthors::Register (
@@ -55,6 +55,7 @@ use Acme::CPANAuthors::Register (
     GROMMIER    => "Sébastien Grommier",
     GROUSSE     => "Guillaume Rousse",
     GUYDX       => "Guy Decoux",
+    HOBBESTIG   => "Natal Ngétal"
     JACQUELIN   => "Jacquelin Charbonnel",
     JBNIVOIT    => "Jean-Baptiste Nivoit",
     JETEVE      => "Jérôme Eteve",
