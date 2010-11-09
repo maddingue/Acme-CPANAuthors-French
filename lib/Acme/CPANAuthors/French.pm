@@ -55,7 +55,7 @@ use Acme::CPANAuthors::Register (
     GROMMIER    => "Sébastien Grommier",
     GROUSSE     => "Guillaume Rousse",
     GUYDX       => "Guy Decoux",
-    HOBBESTIG   => "Natal Ngétal"
+    HOBBESTIG   => "Natal Ngétal",
     JACQUELIN   => "Jacquelin Charbonnel",
     JBNIVOIT    => "Jean-Baptiste Nivoit",
     JETEVE      => "Jérôme Eteve",
