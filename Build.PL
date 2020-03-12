@@ -13,6 +13,7 @@ my $builder = Module::Build->new(
     },
     build_requires => {
         'Test::More'        => 0,
+        'Gravatar::URL'     => 0,
     },
     add_to_cleanup      => [ 'Acme-CPANAuthors-French-*' ],
 );

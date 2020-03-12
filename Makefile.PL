@@ -14,6 +14,7 @@ WriteMakefile(
 
         # build/test prereqs
         'Test::More'        => 0,
+        'Gravatar::URL'     => 0,
     },
     PL_FILES            => {},
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },

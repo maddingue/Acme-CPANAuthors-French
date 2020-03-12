@@ -2,6 +2,7 @@
 use strict;
 use warnings;
 use Test::More;
+use Gravatar::URL;
 
 
 plan skip_all => "can't load Acme::CPANAuthors"
